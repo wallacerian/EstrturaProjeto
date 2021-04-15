@@ -1,0 +1,18 @@
+{
+    "name": "user/estrutura-projeto",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "authors" : [
+        {
+            "name": "Wallace Rian",
+            "email": "wallacefsp@outlook.pt"
+        }
+    ],
+    "require": {},
+    "autoload": {
+     "psr-4": {
+         "SON\\Db\\": "src"
+     }
+    }
+}
